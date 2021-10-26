@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.carebot.homeFragment.homeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_healthFragment"
+            app:destination="@id/healthFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/friendsFragment"
+        android:name="com.example.carebot.friendsFragment.friendsFragment"
+        android:label="fragment_friends"
+        tools:layout="@layout/fragment_friends" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.carebot.profileFragment.profileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment2"
+            app:destination="@id/loginFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/healthFragment"
+        android:name="com.example.carebot.homeFragment.healthFragment"
+        android:label="fragment_health"
+        tools:layout="@layout/fragment_health" />
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="com.example.carebot.signFragment.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" />
+</navigation>

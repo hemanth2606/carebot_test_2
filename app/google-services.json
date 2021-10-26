@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "625784581199",
+    "project_id": "carebot-3b945",
+    "storage_bucket": "carebot-3b945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:625784581199:android:044cf62cf5792595b5ce3a",
+        "android_client_info": {
+          "package_name": "com.example.carebot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "625784581199-pd1m4q0ats5f1b602rdqscekghvj5mhl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBTe53cZo6gqNY4vRLXX5liBKJIvWn9_Dg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "625784581199-pd1m4q0ats5f1b602rdqscekghvj5mhl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
